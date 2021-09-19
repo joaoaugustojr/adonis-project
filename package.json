@@ -38,9 +38,9 @@
     "source-map-support": "^0.5.19"
   },
   "lint-staged": {
-    "*.ts": [
+    "*.{js,jsx,ts,tsx}": [
       "eslint --fix",
-      "git add"
+      "prettier --write ."
     ]
   }
 }
